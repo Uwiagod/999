@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SHEHUB X CHEAT | Premium Access</title>
+    <title>SHEHUB X CHEAT | Premium Store</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;900&family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -13,43 +13,44 @@
 
     <nav>
         <div class="logo">SHEHUB <span>X</span> CHEAT</div>
-        <div class="nav-right">
-            <span class="status-indicator"><span class="pulse"></span> System: Undetected</span>
-            <a href="https://discord.gg/YOUR_LINK" target="_blank" class="discord-btn">
-                <img src="https://cdn-icons-png.flaticon.com/512/5968/5968756.png" alt="Discord">
-                Join Community
-            </a>
-        </div>
+        <a href="https://discord.gg/YOUR_LINK" class="discord-btn">JOIN DISCORD</a>
     </nav>
 
-    <main class="hero">
-        <div class="content-wrapper">
-            <h1 class="glitch-text" data-text="PREMIUM ACCESS">PREMIUM ACCESS</h1>
-            <p class="subtitle">The most advanced Free Fire internal tool. Safe. Fast. Reliable.</p>
-            
-            <div class="pricing-container">
-                <div class="card premium-glow">
-                    <div class="card-header">
-                        <h3>BASIC PANEL</h3>
-                        <p>Perfect for starters</p>
-                    </div>
-                    <div class="price-tag">
-                        <span class="currency">$</span>1.00<span class="duration">/24H</span>
-                    </div>
-                    <ul class="features">
-                        <li><span>✔</span> Internal Aim Assist</li>
-                        <li><span>✔</span> ESP Line & Box</li>
-                        <li><span>✔</span> Anti-Ban Level 1</li>
-                        <li><span>✔</span> Instant Delivery</li>
-                    </ul>
-                    <button class="buy-button" onclick="handlePurchase()">
-                        GET ACCESS NOW
-                        <div class="btn-flare"></div>
-                    </button>
-                </div>
-            </div>
+    <header class="hero">
+        <h1>ELITE PROTECTION</h1>
+        <p>Premium Free Fire panels with 0.1% detection rate.</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <h3>BASIC PANEL</h3>
+            <div class="price">$1<span>/day</span></div>
+            <ul class="features">
+                <li>✔ External Menu</li>
+                <li>✔ Basic Aimbot</li>
+                <li>✔ ESP Lines</li>
+                <li>✔ Standard Anti-Ban</li>
+            </ul>
+            <button class="buy-btn" onclick="purchase('Basic')">
+                BUY NOW <div class="flare"></div>
+            </button>
         </div>
-    </main>
+
+        <div class="card premium">
+            <div class="badge">RECOMMENDED</div>
+            <h3>DLL PANEL</h3>
+            <div class="price">$1<span>/day</span></div>
+            <ul class="features">
+                <li>✔ Internal Injection</li>
+                <li>✔ Silent Aim v2</li>
+                <li>✔ Full Skeleton ESP</li>
+                <li>✔ Bypass v3 Safe</li>
+            </ul>
+            <button class="buy-btn" onclick="purchase('DLL')">
+                BUY NOW <div class="flare"></div>
+            </button>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
